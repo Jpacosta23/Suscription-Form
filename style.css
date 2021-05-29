@@ -1,0 +1,95 @@
+body {
+  background-image: url(./wp2940448-sports-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: x-large;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+.main-form {
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px black solid;
+}
+
+.header-title {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  margin: 20px;
+}
+
+.form-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-text label,
+input {
+  margin: 5px 20px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.form-select {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 336px;
+  margin: 20px;
+}
+
+.radio-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.form-title {
+  margin: 10px;
+}
+
+p {
+  margin: 20px 60px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px 20px;
+  margin: 2px 0;
+  box-sizing: border-box;
+  font-size: 24px;
+}
+
+input[type="radio"] {
+  transform: scale(2);
+}
+
+input[type="checkbox"] {
+  transform: scale(2);
+}
+
+input[type="submit"] {
+  width: 150px;
+  height: 50px;
+  font-size: x-large;
+  margin: 10px;
+}
+
+.checkbox-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
